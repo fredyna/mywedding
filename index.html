@@ -217,6 +217,10 @@
                 Copyright &copy;
                 <a href="https://fredynurapriyanto.web.id">Fredy Nur Apriyanto</a>
               </p>
+
+                <audio id="mySong" controls autoplay="true" muted="muted">
+                    <source src="audio/nikah.mp3" type="audio/mpeg">
+                </audio>
             </div>
           </div>
         </div>
@@ -230,5 +234,14 @@
     <script src="plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/smooth-scroll.js"></script>
+    <script>
+        $(document).ready(function() {
+            let song = document.getElementById("mySong");
+            song.muted = false;
+            $(document).click(function(){
+                song.play();
+            });
+        });
+    </script>
   </body>
 </html>

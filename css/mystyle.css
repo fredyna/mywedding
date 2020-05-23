@@ -37,6 +37,10 @@ header .container {
   padding-top: 25px;
 }
 
+#home nav {
+  z-index: 9999;
+}
+
 .nama-pengantin-wrapper {
   margin: 0;
   position: absolute;
@@ -56,9 +60,6 @@ header .container {
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 40px;
-}
-
-#himbauan {
 }
 
 @media (max-width: 992px) {
