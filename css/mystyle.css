@@ -1,0 +1,88 @@
+/*--
+    Edit by Fredy Nur Apriyanto
+    Started from 23 Mei 2020
+--*/
+
+.bg-pink {
+  background: #fe938c;
+}
+
+.bg-coklat {
+  background: #edaf97;
+}
+
+* {
+  font-family: "Kaushan Script", cursive;
+}
+
+#preloader-wrapper img {
+  width: 100px;
+}
+
+header {
+  background-color: transparent;
+}
+
+header .container {
+  background-color: transparent;
+}
+
+#home {
+  background-image: url("../images/background/bg.jpg");
+  background-color: #fe938c;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 25px;
+}
+
+.nama-pengantin-wrapper {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translateY(-35%);
+  -ms-transform: translateX(-50%);
+  transform: translateY(-35%);
+  transform: translateX(-50%);
+}
+
+#waktu-nikah {
+  background-image: url("../images/background/bg-waktu.png");
+  background-color: #fe938c;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 40px;
+}
+
+#himbauan {
+}
+
+@media (max-width: 992px) {
+  #home {
+    padding-top: 5px;
+  }
+  .nama-pengantin-wrapper h1 {
+    font-size: 2.5em;
+  }
+
+  #waktu-nikah {
+    padding-top: 60px;
+  }
+
+  #waktu-nikah h3 {
+    margin-bottom: 10px;
+  }
+
+  #waktu-nikah .subheading {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  #waktu-nikah p {
+    font-size: 14px;
+  }
+}
